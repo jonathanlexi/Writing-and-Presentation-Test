@@ -77,7 +77,7 @@ Sistem operasi windows dan linux menyusun file dan direktori/folder menggunakan 
 - git init . ==> digunakan untuk membuat repository di file lokal
 - git status ==> digunakan untuk mengetahui status repository lokal
 - git add . ==> digunakan untuk menambah file baru di repository yang dipilih
-- git commit -m "message" ==> save perubahan pada version control
+- git commit - "message" ==> save perubahan pada version control
 
 ## HTML dan CSS
 
@@ -435,7 +435,7 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
 
 #### Membuat Function
 
-![alt text](./screenshots/function-js.JPG.JPG)
+![alt text](./screenshots/function-js.JPG)
 
 ### Memanggil Function
 
