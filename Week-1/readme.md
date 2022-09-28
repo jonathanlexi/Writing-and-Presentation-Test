@@ -205,13 +205,17 @@ CSS sama seperti HTML bukan merupakan bahasa pemrograman karena tidak bisa meman
   Desain web yang responsif dapat membuat halaman web terlihat bagus di semua perangkat. Desain web responsif hanya menggunakan HTML dan CSS.
 
 Tag meta pada html untuk membuat responsive website
+
 ![](./screenshots/tag-meta.JPG)
 
 mengatur tampilan dengan ukuran layar tentu
+
 ![](./screenshots/media-query.JPG)
 
 - #### Flexbox CSS
+
   Untuk mulai menggunakan model Flexbox, Anda harus mendefinisikan wadah flex terlebih dahulu.
+
   ![](./screenshots/start-flex.JPG)
 
 ##### Properti flex container
