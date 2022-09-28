@@ -36,7 +36,7 @@ Sistem operasi windows dan linux menyusun file dan direktori/folder menggunakan 
    untuk membuat folder baru
 
 4. Command touch
-   untuk membuat folder baru
+   untuk membuat file baru
 
 5. Command nano
    untuk membuka dan edit file
