@@ -132,11 +132,11 @@ Sistem operasi windows dan linux menyusun file dan direktori/folder menggunakan 
 
 - Menggunakan element html yang sesuai dengan kebutuhan konten
 - Digunakan agar lebih mudah baca dan dimengerti
-- contoh : <header>,<nav>,<section>,<aside>,<article>,<footer>,<main>
+- contoh : tag header,nav,section,aside,article,footer,main
 
 - #### Tag HTML yang populer atau sering digunakan
 
-- <head>,<body>,<nav>,<section>,<footer>,<table>,<tr>,<td>,<h1>,<h2>,<h3>,<p>,<link>,<form>,<input>,dll
+tag head,body,nav,section,footer,table,tr,td,h1,h2,h3,p,link,form,input,dll
 
 - #### Mendeploy html
 
@@ -155,31 +155,50 @@ CSS sama seperti HTML bukan merupakan bahasa pemrograman karena tidak bisa meman
 
 1. Inline Style
    Inline styles adalah kita menambahkan CSS pada attribute element HTML
+
    ![alt text](./screenshots/inline-style-css.JPG)
+
 2. .CSS files
    Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan code CSS di file tersendiri (extension .css) dan terpisah dari file HTML.
+
    ![alt text](./screenshots/eksternal-css.JPG)
+
 3. <style></style> tag
+
    menggunakan tag <style> di html
+
    ![alt text](./screenshots/internal-css.JPG)
 
 - #### Styling CSS pada halaman html
 
 1. CSS Tag name
    Menggunakan tag elemen HTML secara langsung pada CSS dan akan mempengaruhi seluruh tag elemen html yang ada pada file tersebut
+
    ![alt text](./screenshots/eksternal-css.JPG)
+
 2. Gunakan (.) saat memanggil class pada CSS
+
    ![alt text](./screenshots/class-css.png)
+
 3. Dapat menggunakan lebih dari 1 class untuk 1 element html
+
 4. CSS ID Name hanya ada 1 nama id di 1 element html.Gunakan (#namaID) saat memanggil element ID HTML pada CSS
+
    ![alt text](./screenshots/%23id-css.png)
+
 5. Setiap element pada CSS memiliki parent and child
+
    ![alt text](./screenshots/parent-child-css.png)
+
 6. Multiple selector
    Membuat code lebih efisien dan tidak repetitive (melakukan hal yang sama berulang kali)
+
    ![alt text](./screenshots/selector-css.JPG)
+
 7. Psudo classes dan elements
+
    ![alt text](./screenshots/pseudo-class-element.png)
+
    ![alt text](./screenshots/psudo-class-cth.JPG)
 
 - #### Responsive Web Design CSS
@@ -412,7 +431,7 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
 
 #### Membuat Function
 
-![alt text](./screenshots/logical-operator.JPG)
+![alt text](./screenshots/function-js.JPG.JPG)
 
 ### Memanggil Function
 
@@ -421,7 +440,9 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
 ### Parameter dan Argumen
 
 Parameter,menerima sebuah inputan data dan menggunakannya untuk melakukan task/tugas.
+
 ![alt text](./screenshots/parameter-js.JPG)
 
 Argumen , nilai yang digunakan saat memanggil function
+
 ![alt text](./screenshots/argumen-js.JPG)
