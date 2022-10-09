@@ -173,19 +173,19 @@ for(let namavariable in namaobjek){
     - ![image](https://user-images.githubusercontent.com/85721522/194765672-41f1d496-3a11-49d4-8d50-fb6f2beaefc2.png)
 
 ### js asyncronous
-- callback = function yang dijadikan sebagai argumen
+- ### callback = function yang dijadikan sebagai argumen
 - callback terjadi karena adanya event loop 
 - ![image](https://user-images.githubusercontent.com/85721522/194766487-54810130-ccb2-4db9-ae15-6d7917bc584f.png)
 
     -   ![image](https://user-images.githubusercontent.com/85721522/194766190-6c58c682-c8e8-40fa-9d96-9edbec3c4871.png)
     -   ![image](https://user-images.githubusercontent.com/85721522/194766207-a60a5bae-a906-439b-96af-cadfff7915e7.png)
 
-- promises
+- ### promises
   - 3 states promises
     - pending
     - rejected
     - fulfilled
-  - async await
+- ### async await
 
 
 ## Web Storage
