@@ -181,19 +181,57 @@ for(let namavariable in namaobjek){
     -   ![image](https://user-images.githubusercontent.com/85721522/194766207-a60a5bae-a906-439b-96af-cadfff7915e7.png)
 
 - ### promises
+
+	![image](https://user-images.githubusercontent.com/85721522/194774085-82b6a85c-133b-4c40-af4b-6834ed461d12.png)
+
+
   - 3 states promises
     - pending
     - rejected
     - fulfilled
+
+![image](https://user-images.githubusercontent.com/85721522/194774114-66fdd5b8-75c6-4628-9656-bb343a5df3ac.png)
+
+
 - ### async await
+	- async = function yang dapat return promise
+	- await = fuction yang menunggu promise 
+
+![image](https://user-images.githubusercontent.com/85721522/194774458-8e218d8f-9b26-492e-b777-b4c6316eca70.png)
+
+![image](https://user-images.githubusercontent.com/85721522/194774470-0bfd9e4f-f985-43bd-be4e-4d7758d40029.png)
 
 
 ## Web Storage
 
 - local storage
-- -ukuran 10mb
+  - ukuran 10mb
+  - tempat penyimpanan di browser
 - session storage
+  - ukuran 5mb 
+  - tempat penyimpanan di browser
 - cookie 
+  - 4kb
+  - tempat penyimpanan di browser dan server
+
+Digunakan untuk : 
+- score dan leaderboard pada game
+- setting & configuration
+- posisi video/audio terakhir
+
+Tidak digunakan untuk :
+- data sensitif
+
+![image](https://user-images.githubusercontent.com/85721522/194773835-79aa3111-a0ff-4ac6-ae70-79bd676a0df7.png)
+
+
+### localstorage dan sessionstorage propertirs
+ - setItem(key,value) = menyimpan pasangan key/value
+ - getItem(key) = mengambil value berdasarkan key
+ - removeItem(key) = menghapus nilai pasangan key/value
+ - clear() = menghapus isi storage
+ - key(index) = mengambil nilai key berdasarkan index
+ - length = mengetahui jumlah data di dalam storage
     
 
 
