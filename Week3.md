@@ -190,4 +190,10 @@ for(let namavariable in namaobjek){
 
 ## Web Storage
 
+- local storage
+- -ukuran 10mb
+- session storage
+- cookie 
+    
+
 
