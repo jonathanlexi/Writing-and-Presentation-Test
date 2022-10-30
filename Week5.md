@@ -103,13 +103,17 @@ Penggunaan function
     - ![image](https://user-images.githubusercontent.com/85721522/198884581-78ba8080-f6be-4e73-a220-e9d8f4ae6d43.png)
     - ![image](https://user-images.githubusercontent.com/85721522/198884611-40728dcc-b205-47c4-bc5d-cdf11309e1a7.png)
 
+## PropTypes
+- Pengecekan props dapat menggunakan PropTypes
+- PropTypes.element, menentukan bahwa hanya dapat menerima satu komponen anak yang dapat dikirimkan ke komponen lain
+- defaultProps,mendefinisikan nilai default props 
 
 ## styling pada react js 
 - styling inline menggunakan property style
   - style={{backgroundColor : ''}}
   - style={{props.color}}
 
-- styling outline
+- styling external
   -  ![image](https://user-images.githubusercontent.com/85721522/198884120-afe1872c-49c0-4edf-a045-4227636bdb81.png)
  
   -   ![image](https://user-images.githubusercontent.com/85721522/198884155-da52d160-b304-4b75-a6bf-97c1c0baca81.png)
