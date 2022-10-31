@@ -133,12 +133,14 @@ Penggunaan function
 - ### Styling bootstrap 
 	
 	- Inisialisasi bootstrap
+	
 	![image](https://user-images.githubusercontent.com/85721522/198994380-8f5336eb-7179-4293-8e7a-d8d67e8c3d8f.png)
 
 	![image](https://user-images.githubusercontent.com/85721522/198994432-f57d7c18-ba5d-46ab-bf3e-50ca040bae5c.png)
 	
 	- Penggunaan sama seperti bootsrap yang biasa 
 	
+	https://react-bootstrap.github.io/
 
 
 
