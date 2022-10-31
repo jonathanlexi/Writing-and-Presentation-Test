@@ -83,7 +83,7 @@ Penggunaan function
   ## lifecycle method react js 
   
    ![image](https://user-images.githubusercontent.com/85721522/198883909-8398e8c2-bb89-4fab-88e0-ebc3e596d3ff.png)
-    
+- digunakan hanya pada class tidak react    
 - mount = muncul
 - update = perubahan
 - unmount  = hilang
