@@ -104,9 +104,21 @@ Penggunaan function
     - ![image](https://user-images.githubusercontent.com/85721522/198884611-40728dcc-b205-47c4-bc5d-cdf11309e1a7.png)
 
 ## PropTypes
-- Pengecekan props dapat menggunakan PropTypes
+- Pengecekan tipe data props dapat menggunakan PropTypes
 - PropTypes.element, menentukan bahwa hanya dapat menerima satu komponen anak yang dapat dikirimkan ke komponen lain
+- install proptypes di terminal dengan command npm install prop-types
+- import PropTypes 'prop-types';
 - defaultProps,mendefinisikan nilai default props 
+
+![image](https://user-images.githubusercontent.com/85721522/198936941-948c70d8-7af0-4951-b86a-4b5fba3dfc7a.png)
+
+### Mengecek props termasuk kedua type data tersebut
+
+![image](https://user-images.githubusercontent.com/85721522/198939415-f26a5a82-26e3-49b3-ba4b-1563ef667a10.png)
+
+### Mengecek type data apa yang ada didalam prop array 
+
+![image](https://user-images.githubusercontent.com/85721522/198939826-19161a09-8fb0-4c39-a868-1da6e05d09ad.png)
 
 ## styling pada react js 
 - styling inline menggunakan property style
