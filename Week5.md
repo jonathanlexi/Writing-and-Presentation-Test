@@ -84,9 +84,9 @@ Penggunaan function
   
    ![image](https://user-images.githubusercontent.com/85721522/198883909-8398e8c2-bb89-4fab-88e0-ebc3e596d3ff.png)
     
-- mount 
-- unmount
-- update  
+- mount = muncul
+- update = perubahan
+- unmount  = hilang
 
 ![image](https://user-images.githubusercontent.com/85721522/198883974-10044e7c-c409-4491-98ce-977fb5bd19e1.png)
 
