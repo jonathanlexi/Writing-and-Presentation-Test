@@ -91,6 +91,12 @@
 ### file main.js, App dibungkus provider dengan store yang sudah dibuat 
 
 
+## Async Actions dengan Middleware dan Thunk
+
+- fungsi : Selain fungsi biasa (synchronous, dengan bantuan middleware kita juga bisa melakukan fungsi async seperti memanggil API. Karena itu middleware kita sekarang akan butuh bantuan package redux thunk
+
+- Mengimplementasikan middleware, yang bertugas untuk menangani efek samping karena kita tidak boleh mengganggu action dan reducer yang harusnya pure function
+
+- import thunk from 'redux-thunk'
 
 
-## Async Actions with Middleware dan Thunk
