@@ -34,6 +34,7 @@
 ### Nested Route 
   - Dengan double tag Routes yang membungkus tag Route
 
+
     ![image](https://user-images.githubusercontent.com/85721522/200176769-a190e5b5-bf64-40c9-ab21-d771731979ab.png)
     
     ![image](https://user-images.githubusercontent.com/85721522/200176811-abdc3a53-93d2-40ed-bc1f-fdceb774a4b7.png)
@@ -43,6 +44,8 @@
    - Mengambil value yang ada di dalam url atau sebagai params
    - Menggunakan hook useParams
    - Dapat digunakan untuk mendapatkan data dari api
+   - / = root directory
+   - /post/detail/1 = nested route
 
 ![image](https://user-images.githubusercontent.com/85721522/200178267-c802faa4-482d-4b3e-89be-b1bb07f95234.png)
 
@@ -54,6 +57,39 @@
 
 
 ## State Management React Redux
+
+- redux adalah open source library js untuk mengelola dan membuat state terpusat.
+- redux digunakan agar child child bisa saling mendapatkan data dengan adanya central data store
+- instal depedensi redux (npm i redux react-redux)
+- store,reducer,actions
+    1. Store
+      - tempat untuk menampung data agar data dapat digunakan diberbagai komponen
+      
+        ![image](https://user-images.githubusercontent.com/85721522/200237574-5111ae12-bf7b-4e3b-918e-675bfa730703.png)
+        
+        ![image](https://user-images.githubusercontent.com/85721522/200237645-baceb2ea-9d95-49b4-9b1f-7c2b6408a224.png)
+    
+    2. Reducer
+      - reducer adalah function yang mengambil state terbaru dan argumen sebagai argumen dan mengembalikan ke state yang baru
+      - (state, action) => newState
+
+        ![image](https://user-images.githubusercontent.com/85721522/200237726-cc57dcd5-0dce-46c4-9e60-13f76bb39dd2.png)
+
+    3. Actions
+      - objek yang ada type yang menggambarkan apa yang terjadi 
+      - field harus bertipe string ('feature/eventName')
+      - action.payload ,yang dimana action memiliki nilai lain 
+
+    ![image](https://user-images.githubusercontent.com/85721522/200237773-59badf30-908a-44bf-8078-7c166c1c1321.png)
+
+
+- dispatch = penghubung antara component view ke action kemudian ke reducer
+- selector berfungsi untuk menerima redux store state sebagai argumen dan return data berdasarkan state 
+
+### Membuat store dengan createstore
+- import createStore from redux library 
+### file main.js, App dibungkus provider dengan store yang sudah dibuat 
+
 
 
 
